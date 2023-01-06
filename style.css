@@ -132,7 +132,7 @@ a:hover{
 }
 .bottom{
     position:sticky;
-    height: 56px;
+    height: 55px;
     background-color:black;
     color: white;
     bottom: 0;
