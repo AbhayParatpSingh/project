@@ -2,9 +2,13 @@
     margin: 0;
     padding: 0;
 }
+body{
+    background-image: url(RUgdhy.png);
+}
 a{
     color: white;
     text-decoration: none;
+    opacity: 0.5;
 }
 nav{
     display: flex;
@@ -27,7 +31,8 @@ img{
     height: 32px;
 }
 .nav_left_content{
-    padding: 0 12px;   
+    padding: 0 12px;  
+    opacity: 0.5; 
 }
 .nav_right{
     display: flex;
@@ -40,14 +45,18 @@ img{
 .nav_right_icons1{
     padding: 0 12px;
     margin-left: 700px;
+    opacity: 0.75;
 }
 .nav_right_icons2{
     padding: 0 12px;
     margin-left: 12px;
+    opacity: 0.75;
 }
 .nav_right_icons3{
     padding: 0 12px;
     margin-left: 12px;
+    opacity: 0.5;
+
 }
 .dropbtn {
     background-color:black;
@@ -84,4 +93,69 @@ img{
 }
 i{
     color: white;
+}
+.nav_left_content:hover{
+    opacity: 1;
+
+}
+.nav_right_icons1:hover{
+    opacity: 1;
+
+}
+.nav_right_icons2:hover{
+    opacity: 1;
+
+}
+.nav_right_icons3:hover{
+    opacity: 1;
+
+}
+a:hover{
+    opacity: 1;
+}
+.container{
+    min-height: 81vh;
+    background-color:black;
+    color: white;
+    font-family:'Times New Roman', Times, serif;
+    margin: 4px ;
+    display: flex;
+    margin-left: 120px;    
+    width: 80%;
+    border-radius:12px;
+    background-image: url('RUgdhy.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 10px;
+    box-shadow: 2px 0px 75px  black;
+
+}
+.bottom{
+    position:sticky;
+    height: 56px;
+    background-color:black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 2px 2px 2px 2px;
+    border-radius: 12px;
+    
+}
+.icons{
+    margin-top: 10px;
+}
+.icons i{
+cursor: pointer;
+}
+#progressBar{
+    width: 80vw;
+
+
+}
+.img1{
+  height: 30px;
+  
 }
