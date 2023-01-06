@@ -5,6 +5,12 @@
 body{
     background-image: url(RUgdhy.png);
 }
+h2{
+    color: black;
+}
+h1{
+    color: black;
+}
 a{
     color: white;
     text-decoration: none;
@@ -155,7 +161,44 @@ cursor: pointer;
 
 
 }
-.img1{
-  height: 30px;
-  
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-color:black;
+    color:white;
+    margin: 12px 0px;
+    justify-content: space-between;    
+    align-items: center;
+    width:300px;
+    border-radius: 12px;
+
+}
+.songItem i{
+    padding-right: 2px;
+    margin-right: 10px;
+}
+.songItem img{
+    width: 43px;
+    height: 40px;
+    margin: 23px 0;
+    border-radius: 8px;
+    
+
+}
+.songinfo{
+    position: absolute;
+    left:9vw;
+    font-size: smaller;
+
+}
+.songinfo img{
+    border-radius: 4px;
+    height:14px;
+    width: 80px;
+    margin-top: 10px;
+    padding-right: 4px;
+    opacity: 0;
+    transition: opacity 1s ease-in;
+
 }
