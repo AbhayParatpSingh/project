@@ -11,7 +11,7 @@ h2{
 h1{
     color: black;
 }
-a{
+ nav a{
     color: white;
     text-decoration: none;
     opacity: 0.5;
@@ -116,7 +116,7 @@ i{
     opacity: 1;
 
 }
-a:hover{
+nav a:hover{
     opacity: 1;
 }
 .container{
@@ -202,4 +202,19 @@ cursor: pointer;
     opacity: 0;
     transition: opacity 0.5s ease-in;
 
+}
+.playlist{
+    display: flex;
+    padding: 20px 140px;
+    align-content: center;
+
+}
+.playlisti img{
+    height: 140px;
+    width: 140px;
+    padding: 20px 24px;
+    border-radius: 50%;
+}
+.playlisti{
+    text-align: center;
 }
