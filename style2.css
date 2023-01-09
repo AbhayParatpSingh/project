@@ -218,3 +218,36 @@ cursor: pointer;
 .playlisti{
     text-align: center;
 }
+@media only screen and (max-width:990px)  {
+    .container{
+        align-content: center;
+        text-align: center;
+        flex-direction: column;
+        width:1036px;
+        
+       
+    }
+    .songList{
+       
+        background-size: contain;
+        
+
+    }
+    .bottom{
+        width: 1200px;
+    }
+    .songItem{
+       
+        margin-left: 288px;
+        width: 489px;
+    }
+
+    .nav{
+        width:1307px;
+        border-radius: 4px;
+    }
+    .playlist{
+        margin-left: 210px;
+    }
+
+}

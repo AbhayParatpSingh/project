@@ -125,7 +125,7 @@ nav a:hover{
     color: white;
     font-family:'Times New Roman', Times, serif;
     margin: 4px ;
-    display: flex;
+    display: flex;   
     margin-left: 120px;    
     width: 80%;
     border-radius:12px;
@@ -148,6 +148,7 @@ nav a:hover{
     flex-direction: column;
     margin: 2px 2px 2px 2px;
     border-radius: 12px;
+    width:100vw;
     
 }
 .icons{
@@ -166,6 +167,7 @@ cursor: pointer;
 .songItem{
     height: 50px;
     display: flex;
+    
     background-color:black;
     color:white;
     margin: 12px 0px;
@@ -205,6 +207,9 @@ cursor: pointer;
 }
 .playlist{
     display: flex;
+    text-align: center;
+   
+    
     padding: 20px 140px;
     align-content: center;
 
@@ -217,4 +222,37 @@ cursor: pointer;
 }
 .playlisti{
     text-align: center;
+}
+@media only screen and (max-width:990px)  {
+    .container{
+        align-content: center;
+        text-align: center;
+        flex-direction: column;
+        width:1036px;
+        
+       
+    }
+    .songList{
+       
+        background-size: contain;
+        
+
+    }
+    .bottom{
+        width: 1200px;
+    }
+    .songItem{
+       
+        margin-left: 288px;
+        width: 489px;
+    }
+
+    .nav{
+        width:1307px;
+        border-radius: 4px;
+    }
+    .playlist{
+        margin-left: 210px;
+    }
+
 }

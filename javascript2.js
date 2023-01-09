@@ -11,13 +11,13 @@ let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs =[
     
-       { songName:"Ghungroo:Arijit Singh",filePath:"psongs/1.mp3"},
-        {songName:"Dil Diyan Gallan:Atif Aslam",filePath:"psongs/2.mp3"},
-        {songName:"Drau Desi:Benny Dayal",filePath:"psongs/3.mp3"},
-        {songName:"Pehli Nazar Me:Pritam",filePath:"psongs/4.mp3"},
-        {songName:"Khudaya Khair:Soham ",filePath:"psongs/5.mp3"},
-        {songName:"Lehra Do:Arijit Singh",filePath:"psongs/6.mp3"},
-        {songName:"Srivali:Javed Ali",filePath:"psongs/7.mp3"},
+       { songName:"All black:Raftar",filePath:"psongs/1.mp3"},
+        {songName:"Amplifier:Imran khan",filePath:"psongs/2.mp3"},
+        {songName:"Backbone :Harrdy sandhu",filePath:"psongs/3.mp3"},
+        {songName:"Bewafa:Imran Khan ",filePath:"psongs/4.mp3"},
+        {songName:"Bijlie Bijlie :hardy sandhu ",filePath:"psongs/5.mp3"},
+        {songName:"Bom digiy digiy",filePath:"psongs/6.mp3"},
+        {songName:"dil chori:yo yo honey singh",filePath:"psongs/7.mp3"},
 
 
     
