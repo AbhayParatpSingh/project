@@ -249,5 +249,10 @@ cursor: pointer;
     .playlist{
         margin-left: 210px;
     }
-
+    #progressBar{
+        width: 80vw;
+        cursor: pointer;}
+    
+    
+ 
 }
