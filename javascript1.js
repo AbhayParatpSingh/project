@@ -116,4 +116,17 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterplay.classList.remove('fa-play-circle');
     masterplay.classList.add('fa-pause-circle');
 })
+audioElement.addEventListener('ended',()=>
+{
+    audioElement.pause();
+    audioElement.src=`esongs/${songIndex+2}.mp3`;
+    audioElement.load();
+    masterSongName.innerText=songs[songIndex+1].songName;
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterplay.classList.remove('fa-play-circle');
+    masterplay.classList.add('fa-pause-circle');
+    
+
+})
 

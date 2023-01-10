@@ -138,7 +138,7 @@ nav a:hover{
 }
 .bottom{
     position:sticky;
-    height: 55px;
+    height: 60px;
     background-color:black;
     color: white;
     bottom: 0;
@@ -152,14 +152,16 @@ nav a:hover{
     
 }
 .icons{
-    margin-top: 10px;
+    margin-top: 5px;
 }
 .icons i{
 cursor: pointer;
 }
+
 #progressBar{
     width: 80vw;
     cursor: pointer;
+    margin-top: 5px;
 
 
 }
@@ -223,6 +225,14 @@ cursor: pointer;
 .playlisti{
     text-align: center;
 }
+#volume1{
+    margin-bottom:5px;
+    margin-left: 1020px;
+}
+#mute{
+    margin-right: 8px;
+}
+
 @media only screen and (max-width:990px)  {
     .container{
         align-content: center;
@@ -255,7 +265,7 @@ cursor: pointer;
         margin-left: 210px;
     }
     #progressBar{
-        width: 80vw;
+        width: 870px;
         cursor: pointer;}
     
 

@@ -4,9 +4,11 @@ let songIndex=0;
 let audioElement=new Audio('songs/1.mp3');
 let masterplay= document.getElementById('masterplay');
 let progressBar= document.getElementById('progressBar');
+let volumeBar=document.getElementById('volumeBar');
 let gif= document.getElementById('gif');
 let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
+let audiovolume= audioElement.volume;
 
 
 let songs =[
@@ -116,4 +118,19 @@ document.getElementById('previous').addEventListener('click', ()=>{
     masterplay.classList.remove('fa-play-circle');
     masterplay.classList.add('fa-pause-circle');
 })
+audioElement.addEventListener('ended',()=>
+{
+    audioElement.pause();
+    audioElement.src=`songs/${songIndex+2}.mp3`;
+    audioElement.load();
+    masterSongName.innerText=songs[songIndex+1].songName;
+    audioElement.currentTime=0;
+    audioElement.play();
+    masterplay.classList.remove('fa-play-circle');
+    masterplay.classList.add('fa-pause-circle');
+    
+
+})
+
+    
 
